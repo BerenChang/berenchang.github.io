@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beren Chang - Robotics Planning & Control Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Basic reset and general styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        .social-links a {
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #3498db;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-color: #3498db;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #e67e22;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Section styles */
+        section {
+            padding: 80px 0;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Project section styles */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .project-card p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .project-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .project-link:hover {
+            background-color: #2980b9;
+        }
+
+        /* Blog section styles */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .blog-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+        .blog-card h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .blog-card p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .blog-date {
+            display: block;
+            font-size: 0.8rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        .blog-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .blog-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Beren Chang</h1>
+            <p>Robotics Planning & Control Engineer</p>
+            <a href="#projects" class="cta-button">View My Projects</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Brief introduction about yourself and your expertise in robotics planning and control.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <p>Your work experience in robotics and related fields.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Autonomous Robot Navigation</h3>
+                    <p>Developed an algorithm for efficient path planning in dynamic environments.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Robotic Arm Control</h3>
+                    <p>Implemented inverse kinematics for precise manipulation tasks.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Swarm Robotics Simulation</h3>
+                    <p>Created a simulation environment for studying emergent behaviors in robot swarms.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Computer Vision for Robotics</h3>
+                    <p>Developed a real-time object detection system for robotic perception.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs">
+        <div class="container">
+            <h2>Blogs</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <h3>The Future of Autonomous Robots</h3>
+                    <p>Exploring the latest trends and innovations in autonomous robotics.</p>
+                    <span class="blog-date">May 15, 2023</span>
+                    <a href="#" class="blog-link">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Machine Learning in Robotics</h3>
+                    <p>How AI is revolutionizing robotic control and decision-making.</p>
+                    <span class="blog-date">April 22, 2023</span>
+                    <a href="#" class="blog-link">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Ethical Considerations in Robotics</h3>
+                    <p>Discussing the moral implications of advanced robotic systems.</p>
+                    <span class="blog-date">March 10, 2023</span>
+                    <a href="#" class="blog-link">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Robotics in Healthcare</h3>
+                    <p>Examining the impact of robots in medical procedures and patient care.</p>
+                    <span class="blog-date">February 5, 2023</span>
+                    <a href="#" class="blog-link">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Get in touch with me for collaborations or opportunities.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Beren Chang. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
