@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beren Chang - Blogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Basic reset and general styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        .social-links a {
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #3498db;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Blog page styles */
+        .page-title {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #3498db;
+            color: #fff;
+        }
+        .page-title h1 {
+            font-size: 2.5rem;
+        }
+        .blog-list {
+            padding: 60px 0;
+        }
+        .blog-item {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .blog-item:last-child {
+            border-bottom: none;
+        }
+        .blog-item h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .blog-meta {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 15px;
+        }
+        .blog-excerpt {
+            margin-bottom: 15px;
+        }
+        .read-more {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+        .read-more:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <ul>
+                <li><a href="https://berenchang.github.io/">Home</a></li>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-title">
+        <div class="container">
+            <h1>My Blog Posts</h1>
+        </div>
+    </header>
+
+    <section class="blog-list">
+        <div class="container">
+            <article class="blog-item">
+                <h2>The Future of Autonomous Robots</h2>
+                <div class="blog-meta">Published on May 15, 2023</div>
+                <div class="blog-excerpt">
+                    <p>Exploring the latest trends and innovations in autonomous robotics. This post delves into the cutting-edge technologies shaping the future of robotics and their potential impact on various industries.</p>
+                </div>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="blog-item">
+                <h2>Machine Learning in Robotics</h2>
+                <div class="blog-meta">Published on April 22, 2023</div>
+                <div class="blog-excerpt">
+                    <p>How AI is revolutionizing robotic control and decision-making. This article examines the integration of machine learning algorithms in robotic systems and its implications for enhanced autonomy and adaptability.</p>
+                </div>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="blog-item">
+                <h2>Ethical Considerations in Robotics</h2>
+                <div class="blog-meta">Published on March 10, 2023</div>
+                <div class="blog-excerpt">
+                    <p>Discussing the moral implications of advanced robotic systems. This post explores the ethical challenges posed by the increasing sophistication of robots and AI, and proposes frameworks for responsible development.</p>
+                </div>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="blog-item">
+                <h2>Robotics in Healthcare</h2>
+                <div class="blog-meta">Published on February 5, 2023</div>
+                <div class="blog-excerpt">
+                    <p>Examining the impact of robots in medical procedures and patient care. This article highlights the transformative potential of robotics in healthcare, from surgical assistance to elderly care and rehabilitation.</p>
+                </div>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Beren Chang. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
