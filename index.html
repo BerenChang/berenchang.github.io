@@ -99,6 +99,13 @@
             background-color: #d35400;
         }
 
+        /* Main content styles */
+        .main-content {
+            background-color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+
         /* Section styles */
         section {
             padding: 80px 0;
@@ -210,7 +217,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="https://beren.chang.github.io/blogs/blogs.html">Blogs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -224,86 +231,88 @@
         </div>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Brief introduction about yourself and your expertise in robotics planning and control.</p>
-        </div>
-    </section>
+    <main class="main-content">
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Brief introduction about yourself and your expertise in robotics planning and control.</p>
+            </div>
+        </section>
 
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <p>Your work experience in robotics and related fields.</p>
-        </div>
-    </section>
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <p>Your work experience in robotics and related fields.</p>
+            </div>
+        </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Autonomous Robot Navigation</h3>
-                    <p>Developed an algorithm for efficient path planning in dynamic environments.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-                <div class="project-card">
-                    <h3>Robotic Arm Control</h3>
-                    <p>Implemented inverse kinematics for precise manipulation tasks.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-                <div class="project-card">
-                    <h3>Swarm Robotics Simulation</h3>
-                    <p>Created a simulation environment for studying emergent behaviors in robot swarms.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-                <div class="project-card">
-                    <h3>Computer Vision for Robotics</h3>
-                    <p>Developed a real-time object detection system for robotic perception.</p>
-                    <a href="#" class="project-link">Learn More</a>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Autonomous Robot Navigation</h3>
+                        <p>Developed an algorithm for efficient path planning in dynamic environments.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Robotic Arm Control</h3>
+                        <p>Implemented inverse kinematics for precise manipulation tasks.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Swarm Robotics Simulation</h3>
+                        <p>Created a simulation environment for studying emergent behaviors in robot swarms.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Computer Vision for Robotics</h3>
+                        <p>Developed a real-time object detection system for robotic perception.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="blogs">
-        <div class="container">
-            <h2>Blogs</h2>
-            <div class="blog-grid">
-                <div class="blog-card">
-                    <h3>The Future of Autonomous Robots</h3>
-                    <p>Exploring the latest trends and innovations in autonomous robotics.</p>
-                    <span class="blog-date">May 15, 2023</span>
-                    <a href="#" class="blog-link">Read More</a>
-                </div>
-                <div class="blog-card">
-                    <h3>Machine Learning in Robotics</h3>
-                    <p>How AI is revolutionizing robotic control and decision-making.</p>
-                    <span class="blog-date">April 22, 2023</span>
-                    <a href="#" class="blog-link">Read More</a>
-                </div>
-                <div class="blog-card">
-                    <h3>Ethical Considerations in Robotics</h3>
-                    <p>Discussing the moral implications of advanced robotic systems.</p>
-                    <span class="blog-date">March 10, 2023</span>
-                    <a href="#" class="blog-link">Read More</a>
-                </div>
-                <div class="blog-card">
-                    <h3>Robotics in Healthcare</h3>
-                    <p>Examining the impact of robots in medical procedures and patient care.</p>
-                    <span class="blog-date">February 5, 2023</span>
-                    <a href="#" class="blog-link">Read More</a>
+        <section id="blogs">
+            <div class="container">
+                <h2>Blogs</h2>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <h3>The Future of Autonomous Robots</h3>
+                        <p>Exploring the latest trends and innovations in autonomous robotics.</p>
+                        <span class="blog-date">May 15, 2023</span>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                    <div class="blog-card">
+                        <h3>Machine Learning in Robotics</h3>
+                        <p>How AI is revolutionizing robotic control and decision-making.</p>
+                        <span class="blog-date">April 22, 2023</span>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                    <div class="blog-card">
+                        <h3>Ethical Considerations in Robotics</h3>
+                        <p>Discussing the moral implications of advanced robotic systems.</p>
+                        <span class="blog-date">March 10, 2023</span>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                    <div class="blog-card">
+                        <h3>Robotics in Healthcare</h3>
+                        <p>Examining the impact of robots in medical procedures and patient care.</p>
+                        <span class="blog-date">February 5, 2023</span>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Get in touch with me for collaborations or opportunities.</p>
-        </div>
-    </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Get in touch with me for collaborations or opportunities.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
