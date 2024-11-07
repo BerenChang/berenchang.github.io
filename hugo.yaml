@@ -1,6 +1,6 @@
 baseURL: https://berenchang.github.io
 
-languageCode: bn
+languageCode: en
 title: "Beren's Personal Web"
 
 # Use Hugo modules to add theme
@@ -23,12 +23,12 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Beren's Personal Web"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  fr:
+    languageCode: fr
+    languageName: french
+    title: "Beren's Web"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -64,9 +64,9 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/berenchang.JPG
+    inverted: /images/site/berenchang.JPG
+    favicon: /images/site/berenchang.JPG
 
   # GitHub repo of your site
   gitRepo: https://github.com/BerenChang/berenchang.github.io
