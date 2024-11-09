@@ -62,7 +62,7 @@ skills:
   summary: "Expert in ROS for robotics development, including simulation, multi-sensor integration, and autonomous navigation."
   categories: ["others"]
   
-- name: Optitrack
+- name: OptiTrack Mocap System
   logo: /images/sections/skills/motive.png
   summary: "Expert in OptiTrack motion capture systems, including setup, calibration, and data processing for accurate motion analysis."
   categories: ["others"]

@@ -58,7 +58,7 @@ projects:
 - name: Reach‑Avoid Control Synthesis for a Quadrotor UAV
   role: Team Lead
   timeline: "Sep 2023 - Apr 2024"
-  # url: "https://www.example.com"
+  url: "https://www.youtube.com/watch?v=wMMqXJsCATg"
   summary: A framework was designed to create a safe trajectory for UAVs to reach targets in complex environments, avoiding obstacles while meeting velocity and thrust constraints. It combined geometric controller for precise tracking with Bézier curve-based trajectory generation, incorporating tracking errors.
   tags: ["academic"]
 
@@ -85,6 +85,6 @@ projects:
   image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Jan 2022 - Mar 2022"
-  # repo: https://github.com/hossainemruz/toha
+  url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: An Optimal control formulation of deep neural networks based on Li et al. (2018).
   tags: ["academic"]
