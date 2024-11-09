@@ -29,7 +29,7 @@ skills:
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  categories: ["basic"]
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -40,29 +40,34 @@ skills:
 - name: C
   logo: /images/sections/skills/c.png
   summary: "Proficient in C programming, successfully delivering projects from concept to completion."
-  categories: ["basic", "language"]
+  categories: ["language"]
 
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "Proficient in C++ with extensive experience in complex problem-solving and performance optimization."
-  categories: ["basic", "language"]
+  categories: ["language"]
   
 - name: Python
   logo: /images/sections/skills/python.png
   summary: "Advanced Python: Skilled in data analysis, automation, and scripting, with a focus on efficient and scalable code."
-  categories: ["basic", "language"]
+  categories: ["language"]
   
 - name: MATLAB
   logo: /images/sections/skills/matlab.png
   summary: "Expert in MATLAB for data visualization, algorithm optimization, and complex mathematical modeling."
   categories: ["simulation", "language"]
   
+- name: Qt
+  logo: /images/sections/skills/qt.png
+  summary: "Skillful in Qt for cross-platform application development."
+  categories: ["others"]
+  
 - name: ROS / ROS2
   logo: /images/sections/skills/ros.png
   summary: "Expert in ROS for robotics development, including simulation, multi-sensor integration, and autonomous navigation."
   categories: ["others"]
   
-- name: OptiTrack Mocap System
+- name: OptiTrack
   logo: /images/sections/skills/motive.png
   summary: "Expert in OptiTrack motion capture systems, including setup, calibration, and data processing for accurate motion analysis."
   categories: ["others"]
