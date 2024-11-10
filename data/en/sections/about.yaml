@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Robotic Specialist
+designation: Robotics Planning and Control Specialist
 # your company information
 company:
   name: DTV Motor Corporation
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate robotic system engineer. I built the steering system for DTV Shredder. Currently, I am leading a project on pressure mat sensing system.'
+summary: 'I am a passionate robotics engineer. I built the steering system for DTV Shredder. Currently, I am leading a project on pressure mat sensing system.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -45,7 +45,7 @@ resourceLinks:
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
+# badges:
 # - type: certification
 #    name: Certified Kubernetes Security Specialist
 #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-#  security-specialist"
@@ -61,20 +61,20 @@ badges:
 #    url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
 #  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 85
+#   color: blue
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 95
-  color: orange
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 95
+#   color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

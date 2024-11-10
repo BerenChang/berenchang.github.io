@@ -81,3 +81,8 @@ skills:
   logo: /images/sections/skills/gazebo.png
   summary: "Expert in Gazebo for developing and testing robotic systems, including custom environment creation and physics-based simulations."
   categories: ["simulation"]
+ 
+- name: Solidworks
+  logo: /images/sections/skills/solidworks.png
+  summary: "Proficient in SolidWorks, with extensive experience in 3D modeling, assemblies, and creating detailed engineering drawings. I’ve used it in multiple projects to design and analyze complex parts and assemblies efficiently."
+  categories: ["others"]
