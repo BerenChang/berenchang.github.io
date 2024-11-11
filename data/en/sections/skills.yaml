@@ -39,17 +39,17 @@ skills:
   
 - name: C
   logo: /images/sections/skills/c.png
-  summary: "Proficient in C programming, successfully delivering projects from concept to completion."
+  summary: "Skilled in C programming, with solid experience in developing efficient code for embedded systems and performance-critical applications, proven by the project of the DTV steering system."
   categories: ["language"]
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Proficient in C++ with extensive experience in complex problem-solving and performance optimization."
+  summary: "Proficient in C++ programming, with experience in object-oriented design, data structures, and algorithm optimization, proven by various quadrotor projects."
   categories: ["language"]
   
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Advanced Python: Skilled in data analysis, automation, and scripting, with a focus on efficient and scalable code."
+  summary: "Skilled in Python, with extensive experience in data analysis, scripting, and automation."
   categories: ["language"]
   
 - name: MATLAB
@@ -64,25 +64,25 @@ skills:
   
 - name: ROS / ROS2
   logo: /images/sections/skills/ros.png
-  summary: "Expert in ROS for robotics development, including simulation, multi-sensor integration, and autonomous navigation."
+  summary: "Expert in Robot OS for robotics development, including simulation, multi-sensor integration, and autonomous navigation."
   categories: ["others"]
   
 - name: OptiTrack
   logo: /images/sections/skills/motive.png
-  summary: "Expert in OptiTrack motion capture systems, including setup, calibration, and data processing for accurate motion analysis."
+  summary: "Skilled in operating the OptiTrack motion capture systems, including Motive setup, camera calibration, and data processing for accurate motion analysis."
   categories: ["others"]
   
 - name: Webots
   logo: /images/sections/skills/webots.png
-  summary: "Expert in Webots for simulating and testing robotic systems, including environment modeling and behavior scripting."
+  summary: "Expert in Webots for simulating and testing robotic systems to develop and refine robotic models and control algorithms for various applications, especially quadrotors."
   categories: ["simulation"]
   
 - name: Gazebo
   logo: /images/sections/skills/gazebo.png
-  summary: "Expert in Gazebo for developing and testing robotic systems, including custom environment creation and physics-based simulations."
+  summary: "Proficient in Gazebo, with experience in creating realistic simulations for robotics applications including UGV like and robot arms like UR5."
   categories: ["simulation"]
  
 - name: Solidworks
   logo: /images/sections/skills/solidworks.png
-  summary: "Proficient in SolidWorks, with extensive experience in 3D modeling, assemblies, and creating detailed engineering drawings. I’ve used it in multiple projects to design and analyze complex parts and assemblies efficiently."
+  summary: "Skilled in SolidWorks, with extensive experience in 3D modeling, assemblies, and creating detailed engineering drawings."
   categories: ["others"]
