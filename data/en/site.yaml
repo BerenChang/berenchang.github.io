@@ -21,7 +21,7 @@ customMenus:
 #   showOnFooter: false
 
 - name: About My Name
-  url: https://en.wikipedia.org/wiki/L%C3%BAthien_and_Beren
+  url: https://en.wikipedia.org/wiki/Beren_and_L%C3%BAthien
 
 # Specify OpenGraph Headers
 openGraph:
