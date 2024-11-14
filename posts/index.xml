@@ -13,4 +13,35 @@ class="center"
 class="center"
 >
 &lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;p>The Sun&amp;rsquo;s temperature is roughly 5,770 Kelvin (5,497 degrees Celsius), while the blue color of Senkaku VII (Rigel) can reach 11,000 Kelvin (10,726 degrees Celsius). This difference in color is also explained by the spectrum. The colors we see are actually the strongest kind of light in the visible spectrum of the star. What does this mean? It means that all of this light, red, orange, yellow, green, blue, indigo, and violet, gets into our eyes, but it is of course the strongest of the visible light that our visual system recognizes. It should be noted that sometimes the sun appears red to the naked eye because the atmosphere affects the sun&amp;rsquo;s light, not because of its color.&lt;/p></description></item></channel></rss>
+&lt;p>The Sun&amp;rsquo;s temperature is roughly 5,770 Kelvin (5,497 degrees Celsius), while the blue color of Senkaku VII (Rigel) can reach 11,000 Kelvin (10,726 degrees Celsius). This difference in color is also explained by the spectrum. The colors we see are actually the strongest kind of light in the visible spectrum of the star. What does this mean? It means that all of this light, red, orange, yellow, green, blue, indigo, and violet, gets into our eyes, but it is of course the strongest of the visible light that our visual system recognizes. It should be noted that sometimes the sun appears red to the naked eye because the atmosphere affects the sun&amp;rsquo;s light, not because of its color.&lt;/p></description></item><item><title>My blog post with charts</title><link>https://berenchang.github.io/posts/planning/rrt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://berenchang.github.io/posts/planning/rrt/</guid><description>&lt;html lang = "en">
+&lt;head>
+&lt;meta charset = "UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;link rel="stylesheet" href="css/style.css">
+&lt;section class="header2">
+&lt;h1>Motion Planning: Custom High Resolution Grid&lt;/h1>
+&lt;p>Set start and goal locations, obstacles, and visualize the RRT, A* or Informed RRT* algorithm&lt;/p>
+&lt;/section>
+&lt;/head>
+&lt;body>
+&lt;pre>&lt;code>&amp;lt;div class=&amp;quot;selection&amp;quot;&amp;gt;
+&amp;lt;h2&amp;gt;Choose an algorithm:&amp;lt;/h2&amp;gt;
+&amp;lt;select class= &amp;quot;choose-algorithm&amp;quot; name= &amp;quot;choose-algorithm&amp;quot;&amp;gt;
+&amp;lt;option value=&amp;quot;RRT&amp;quot;&amp;gt;RRT Algorithm&amp;lt;/option&amp;gt;
+&amp;lt;option value=&amp;quot;AStar&amp;quot;&amp;gt;A* Algorithm&amp;lt;/option&amp;gt;
+&amp;lt;option value=&amp;quot;RRTStar&amp;quot;&amp;gt;Informed RRT* Algorithm&amp;lt;/option&amp;gt;
+&amp;lt;/select&amp;gt;
+&amp;lt;button id=&amp;quot;runAlgorithm&amp;quot;&amp;gt; Go! &amp;lt;/button&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;div class = "reset">
+&lt;button id="resetGrid" onClick="window.location.reload(true)"> Reset Grid &lt;/button>
+&lt;/div>
+&lt;div class="results">
+&lt;h3 id="algoresults">[View Results]&lt;/h3>
+&lt;/div>
+&lt;div class = "canvas">
+&lt;canvas id="myCanvas" width="1000" height="650" style="border:1px solid #FF0000;">
+&lt;/canvas>
+&lt;/div>
+&lt;p>&lt;button id="setStart"> Set Start Location &lt;/button>&lt;/p></description></item></channel></rss>
