@@ -18,8 +18,25 @@ buttons:
   filter: "academic"
 - name: Hobby
   filter: "hobby"
+  
+- name: DTV
+  filter: "dtv"
+- name: ROS
+  filter: "ros"
+- name: Quadrotor
+  filter: "quadrotor"
 
 # your projects
+projects:
+- name: DTV Shredder Voice Commanding System
+  # logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Nov 2024 - Present"
+  # repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: Use LLM and Nvidia Jetson to verbally control the DTV Shredder.
+  tags: ["professional", "dtv"]
+
 projects:
 - name: DTV Shredder Remote Controller
   # logo: /images/sections/projects/tensorflow.png
@@ -28,7 +45,7 @@ projects:
   # repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: A joystick-based remote controller is designed for the DTV Shredder to enable precise control. Additionally, a showcase routine was created to demonstrate the shredder's maneuverability.
-  tags: ["professional"]
+  tags: ["professional", "dtv"]
   
 - name: Pressure Measuring System for Golf Simulator
   role: Team Lead
@@ -37,6 +54,15 @@ projects:
   summary: This project involves a pressure mat that captures weight distribution to calculate center of weight movement, analyzing golf swing quality for training. It provides feedback on posture, balance, and movement to help golfers improve technique and performance. 
   tags: ["professional"]
   
+- name: UR5 Robot Arm Pick & Place
+  # logo: /images/sections/projects/kubernetes.png
+  role: Developer
+  timeline: "Aug 2024 - Oct 2024"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Use ROS2 and Gazebo to simulate an UR5 robot arm to complete a pick & place task.
+  tags: ["hobby", "ros"]
+  
 - name: DTV Simulator
   # logo: /images/sections/projects/kubernetes.png
   role: Developer
@@ -44,7 +70,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: A DTV Shredder simulator was designed using ROS2 and Gazebo. 
-  tags: ["hobby"]
+  tags: ["hobby", "dtv"]
   
 - name: DTV Shredder Steering System
   # logo: /images/sections/projects/kubernetes.png
@@ -53,14 +79,14 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: This project involved designing the steering control system for the DTV Shredder. Advanced mathematical algorithms, such as PID and Model Predictive Control (MPC), were implemented to address steering challenges specific to tracked vehicles. An Extended Kalman Filter (EKF) was also applied in signal processing to effectively filter out environmental noise, enhancing control precision and system reliability.
-  tags: ["professional"]
+  tags: ["professional", "dtv"]
 
 - name: Reach‑Avoid Control Synthesis for a Quadrotor UAV
   role: Team Lead
   timeline: "Sep 2023 - Apr 2024"
   url: "https://www.youtube.com/watch?v=wMMqXJsCATg"
   summary: A framework was designed to create a safe trajectory for UAVs to reach targets in complex environments, avoiding obstacles while meeting velocity and thrust constraints. It combined geometric controller for precise tracking with Bézier curve-based trajectory generation, incorporating tracking errors.
-  tags: ["academic"]
+  tags: ["academic", "quadrotor"]
 
 - name: Signal Temporal Logic Motion Planning for Quadrotor
   # logo: /images/sections/projects/no-code.png
@@ -69,7 +95,7 @@ projects:
   # repo: https://github.com/kelseyhightower/nocode
   #url: ""
   summary: A framework was constructed for robust quadrotor reach-avoid tasks using signal temporal logic (STL) and geometric control theory. Mixed-integer convex programming (MICP) is used to satisfy STL specifications, producing smooth trajectories with robustness tubes. A Lyapunov-based geometric controller ensures the quadrotor follows the trajectory within the robustness tube. Simulations confirm the framework's effectiveness, and comparisons show it outperforms PID and nonlinear model predictive control (NMPC).
-  tags: ["academic"]
+  tags: ["academic", "quadrotor"]
 
 - name: Geometric Control of a Quadrotor UAV on SE(3)
   # logo: /images/sections/projects/toha.png
@@ -78,7 +104,7 @@ projects:
   timeline: "Sep 2022 - Dec 2022"
   # repo: https://github.com/hossainemruz/toha
   summary: This projects introduces a tracking controller for a quadrotor using geometric control based on work by Lee et al. (2010). Leveraging SE(3) properties, this approach achieves a robust, coordinate-free control performance.
-  tags: ["academic"]
+  tags: ["academic", "quadrotor"]
   
 - name: Optimal Control Formulation of Deep Neural Network
   # logo: /images/sections/projects/toha.png
