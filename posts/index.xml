@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Beren's Personal Web</title><link>https://berenchang.github.io/posts/</link><description>Recent content in Posts on Beren's Personal Web</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="https://berenchang.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Astronomical Spectroscopy 101</title><link>https://berenchang.github.io/posts/astrophysics/spectroscopy101/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/astrophysics/spectroscopy101/</guid><description>&lt;p>For a star, its composition, velocity, temperature, age, etc. can all be determined by spectroscopy.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Beren's Personal Web</title><link>https://berenchang.github.io/posts/</link><description>Recent content in Posts on Beren's Personal Web</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Nov 2024 06:00:23 +0600</lastBuildDate><atom:link href="https://berenchang.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Model Predictive Control 101</title><link>https://berenchang.github.io/posts/control/mpc/</link><pubDate>Fri, 01 Nov 2024 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/control/mpc/</guid><description>&lt;p>In this post, let&amp;rsquo;s dive into the concept of Model Predictive Control (MPC) for discrete time linear systems with a finite prediction horizon. My major reference is &lt;a href="http://cse.lab.imtlucca.it/~bemporad/publications/papers/BBMbook.pdf" target="_blank" rel="noopener">Predictive Control for Linear and Hybrid Systems&lt;/a>.&lt;/p>
+&lt;h3 id="what-is-model-predictive-control">What is Model Predictive Control?&lt;/h3>
+&lt;p>MPC is an optimization-based control strategy where the control action is determined by solving a mathematical optimization problem at each time step. The key idea is to predict the future behavior of the system over a specified time horizon and choose the best control inputs accordingly, while respecting system constraints.&lt;/p></description></item><item><title>Astronomical Spectroscopy 103</title><link>https://berenchang.github.io/posts/astrophysics/spectroscopy103/</link><pubDate>Wed, 10 Jun 2020 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/astrophysics/spectroscopy103/</guid><description>&lt;h3 id="temperature-by-color">Temperature by color&lt;/h3>
+&lt;p>This was arguably the first part of astrophysics that broke my perception. Originally I thought, well, most flames are red, and pictures of the sun are red, so that means red stars should be hot, right? Actually, no, relatively hot stars are blue to white.&lt;/p>
+&lt;img src="https://berenchang.github.io/posts/spectroscopy/spectroscopy103/Sirius_A_and_B_Hubble_photo.jpg"
+class="center"
+>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;p>The Sun&amp;rsquo;s temperature is roughly 5,770 Kelvin (5,497 degrees Celsius), while the blue color of Senkaku VII (Rigel) can reach 11,000 Kelvin (10,726 degrees Celsius). This difference in color is also explained by the spectrum. The colors we see are actually the strongest kind of light in the visible spectrum of the star. What does this mean? It means that all of this light, red, orange, yellow, green, blue, indigo, and violet, gets into our eyes, but it is of course the strongest of the visible light that our visual system recognizes. It should be noted that sometimes the sun appears red to the naked eye because the atmosphere affects the sun&amp;rsquo;s light, not because of its color.&lt;/p></description></item><item><title>Astronomical Spectroscopy 102</title><link>https://berenchang.github.io/posts/astrophysics/spectroscopy102/</link><pubDate>Tue, 09 Jun 2020 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/astrophysics/spectroscopy102/</guid><description>&lt;h3> Dark patterns in the spectrum and the movement of stars &lt;/h3>
+&lt;p>A phenomenon needs to be introduced here first: the Doppler Effect (Doppler). This effect interprets the frequency of waves received by an observer in relation to the relative speeds of the source and the observer. An example of this in life is that a honking train coming toward you seems to have a higher pitch than a train moving away from you. This is because the train is chasing its own sound waves as it comes in, while at the same time emitting them, so the receiver hears them at a higher frequency, and the pitch of the departing train changes in the same way.&lt;/p></description></item><item><title>Astronomical Spectroscopy 101</title><link>https://berenchang.github.io/posts/astrophysics/spectroscopy101/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/astrophysics/spectroscopy101/</guid><description>&lt;p>For a star, its composition, velocity, temperature, age, etc. can all be determined by spectroscopy.&lt;/p>
 &lt;h3 id="from-the-origin">From the origin&lt;/h3>
 &lt;p>Ancient Greek and Arabian astronomers were the first to notice that the seven-colored rainbow was preceded by sunlight, but the first person to give a correct explanation for this was Isaac Newton (1642-1722). He divided light into seven colors through a prism: red, orange, yellow, green, blue, indigo and violet.&lt;/p>
 &lt;img src="https://berenchang.github.io/posts/images/blog/prism2.gif"
@@ -6,42 +15,4 @@ alt="Prism"
 class="center"
 >
 &lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;p>However, due to the limitations of optical instruments, Newton obtained the spectral resolution (resolution) is too low, to put it bluntly, the resolution is not enough, the eye is limited to the discovery of the seven colors of light, a lot of information in the refraction of light is lost.&lt;/p></description></item><item><title>Astronomical Spectroscopy 102</title><link>https://berenchang.github.io/posts/astrophysics/spectroscopy102/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/astrophysics/spectroscopy102/</guid><description>&lt;h3> Dark patterns in the spectrum and the movement of stars &lt;/h3>
-&lt;p>A phenomenon needs to be introduced here first: the Doppler Effect (Doppler). This effect interprets the frequency of waves received by an observer in relation to the relative speeds of the source and the observer. An example of this in life is that a honking train coming toward you seems to have a higher pitch than a train moving away from you. This is because the train is chasing its own sound waves as it comes in, while at the same time emitting them, so the receiver hears them at a higher frequency, and the pitch of the departing train changes in the same way.&lt;/p></description></item><item><title>Astronomical Spectroscopy 103</title><link>https://berenchang.github.io/posts/astrophysics/spectroscopy103/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/astrophysics/spectroscopy103/</guid><description>&lt;h3 id="temperature-by-color">Temperature by color&lt;/h3>
-&lt;p>This was arguably the first part of astrophysics that broke my perception. Originally I thought, well, most flames are red, and pictures of the sun are red, so that means red stars should be hot, right? Actually, no, relatively hot stars are blue to white.&lt;/p>
-&lt;img src="https://berenchang.github.io/posts/spectroscopy/spectroscopy103/Sirius_A_and_B_Hubble_photo.jpg"
-class="center"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;p>The Sun&amp;rsquo;s temperature is roughly 5,770 Kelvin (5,497 degrees Celsius), while the blue color of Senkaku VII (Rigel) can reach 11,000 Kelvin (10,726 degrees Celsius). This difference in color is also explained by the spectrum. The colors we see are actually the strongest kind of light in the visible spectrum of the star. What does this mean? It means that all of this light, red, orange, yellow, green, blue, indigo, and violet, gets into our eyes, but it is of course the strongest of the visible light that our visual system recognizes. It should be noted that sometimes the sun appears red to the naked eye because the atmosphere affects the sun&amp;rsquo;s light, not because of its color.&lt;/p></description></item><item><title>My blog post with charts</title><link>https://berenchang.github.io/posts/planning/rrt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://berenchang.github.io/posts/planning/rrt/</guid><description>&lt;html lang = "en">
-&lt;head>
-&lt;meta charset = "UTF-8">
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
-&lt;link rel="stylesheet" href="css/style.css">
-&lt;section class="header2">
-&lt;h1>Motion Planning: Custom High Resolution Grid&lt;/h1>
-&lt;p>Set start and goal locations, obstacles, and visualize the RRT, A* or Informed RRT* algorithm&lt;/p>
-&lt;/section>
-&lt;/head>
-&lt;body>
-&lt;pre>&lt;code>&amp;lt;div class=&amp;quot;selection&amp;quot;&amp;gt;
-&amp;lt;h2&amp;gt;Choose an algorithm:&amp;lt;/h2&amp;gt;
-&amp;lt;select class= &amp;quot;choose-algorithm&amp;quot; name= &amp;quot;choose-algorithm&amp;quot;&amp;gt;
-&amp;lt;option value=&amp;quot;RRT&amp;quot;&amp;gt;RRT Algorithm&amp;lt;/option&amp;gt;
-&amp;lt;option value=&amp;quot;AStar&amp;quot;&amp;gt;A* Algorithm&amp;lt;/option&amp;gt;
-&amp;lt;option value=&amp;quot;RRTStar&amp;quot;&amp;gt;Informed RRT* Algorithm&amp;lt;/option&amp;gt;
-&amp;lt;/select&amp;gt;
-&amp;lt;button id=&amp;quot;runAlgorithm&amp;quot;&amp;gt; Go! &amp;lt;/button&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/div>
-&lt;div class = "reset">
-&lt;button id="resetGrid" onClick="window.location.reload(true)"> Reset Grid &lt;/button>
-&lt;/div>
-&lt;div class="results">
-&lt;h3 id="algoresults">[View Results]&lt;/h3>
-&lt;/div>
-&lt;div class = "canvas">
-&lt;canvas id="myCanvas" width="1000" height="650" style="border:1px solid #FF0000;">
-&lt;/canvas>
-&lt;/div>
-&lt;p>&lt;button id="setStart"> Set Start Location &lt;/button>&lt;/p></description></item></channel></rss>
+&lt;p>However, due to the limitations of optical instruments, Newton obtained the spectral resolution (resolution) is too low, to put it bluntly, the resolution is not enough, the eye is limited to the discovery of the seven colors of light, a lot of information in the refraction of light is lost.&lt;/p></description></item></channel></rss>
