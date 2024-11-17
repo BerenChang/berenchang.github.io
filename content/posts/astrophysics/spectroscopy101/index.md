@@ -6,7 +6,7 @@ theme: Toha
 menu:
   sidebar:
     name: Spectroscopy 101
-    identifier: rich-content
+    identifier: spectroscopy-101
     parent: Astrophysics
     weight: 10
 ---

@@ -1,12 +1,12 @@
 ---
 title: "Astronomical Spectroscopy 103"
-date: 2020-06-08T06:00:23+06:00
+date: 2020-06-10T06:00:23+06:00
 hero: location.JPG
 theme: Toha
 menu:
   sidebar:
     name: Spectroscopy 103
-    identifier: rich-content
+    identifier: spectroscopy-103
     parent: Astrophysics
     weight: 10
 --- 	
