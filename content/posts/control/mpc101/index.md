@@ -1,5 +1,5 @@
 ---
-title: "Model Predictive Control 101"
+title: "Model Predictive Control 101: The concept"
 date: 2024-11-01T06:00:23+06:00
 hero: hero.jpg
 theme: Toha
@@ -16,7 +16,7 @@ In this post, let's dive into the concept of Model Predictive Control (MPC) for 
 
 ### What is Model Predictive Control?
 
-MPC is an optimization-based control strategy where the control action is determined by solving a mathematical optimization problem at each time step. The key idea is to predict the future behavior of the system over a specified time horizon and choose the best control inputs accordingly, while respecting system constraints.
+MPC, as known as receding horizon control (RHC) is an optimization-based control strategy where the control action is determined by solving a mathematical optimization problem at each time step. The key idea is to predict the future behavior of the system over a specified time horizon and choose the best control inputs accordingly, while respecting system constraints.
 
 ### The algorithm
 
