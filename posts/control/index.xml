@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Control Theory on Beren's Personal Web</title><link>https://berenchang.github.io/posts/control/</link><description>Recent content in Control Theory on Beren's Personal Web</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 02 Nov 2024 06:00:23 +0600</lastBuildDate><atom:link href="https://berenchang.github.io/posts/control/index.xml" rel="self" type="application/rss+xml"/><item><title>Model Predictive Control 102: The batch approach</title><link>https://berenchang.github.io/posts/control/mpc102/</link><pubDate>Sat, 02 Nov 2024 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/control/mpc102/</guid><description>&lt;p>Reference: &lt;a href="http://cse.lab.imtlucca.it/~bemporad/publications/papers/BBMbook.pdf" target="_blank" rel="noopener">Predictive Control for Linear and Hybrid Systems&lt;/a>.&lt;/p>
+&lt;p>In this post, we transform the constrained optimization problem in 101 into a quadratic programming by the &amp;ldquo;batch approach&amp;rdquo;.&lt;/p>
+&lt;h3 id="the-optimization-problem">The optimization problem&lt;/h3>
+&lt;p>Suppose we have the following optimization problem (mentioned in 101).&lt;/p>
+&lt;p>&lt;img src="optimization.png"
+width="500"
+height="150"
+class="center"
+>
+&lt;div style="margin-top: 1rem;">&lt;/div>&lt;/p>
+&lt;p>Take $p(x_N) = ||P x_N||_2 = x^\prime_N P x_N$ and $q(x_k, u_k) = ||Q x_k||_2 + ||R u_k||_2 = x^\prime_k Q x_k + u^\prime_k R u_k$.&lt;/p>
+&lt;h3 id="the-batch-approach">The batch approach&lt;/h3>
+&lt;p>The system is described as $ x(t+1) = Ax(t) + Bu(t) $, then
+$$ x(0) = I x(0) $$
+$$ x(1) = Ax(0) + Bu(0) $$
+$$ x(2) = Ax(1) + Bu(1) = A(Ax(0) + Bu(0)) + Bu(1) = A^2x(0) + ABu(0) + Bu(1) $$
+$$ \cdots $$
+Write all those in matrix form, set $x(t) = x_t, u(t) = u_t$, we have&lt;/p></description></item><item><title>Model Predictive Control 101: The concept</title><link>https://berenchang.github.io/posts/control/mpc101/</link><pubDate>Fri, 01 Nov 2024 06:00:23 +0600</pubDate><guid>https://berenchang.github.io/posts/control/mpc101/</guid><description>&lt;p>In this post, let&amp;rsquo;s dive into the concept of Model Predictive Control (MPC) for discrete time linear systems with a finite prediction horizon. My major reference is &lt;a href="http://cse.lab.imtlucca.it/~bemporad/publications/papers/BBMbook.pdf" target="_blank" rel="noopener">Predictive Control for Linear and Hybrid Systems&lt;/a>.&lt;/p>
+&lt;h3 id="what-is-model-predictive-control">What is Model Predictive Control?&lt;/h3>
+&lt;p>MPC, as known as receding horizon control (RHC) is an optimization-based control strategy where the control action is determined by solving a mathematical optimization problem at each time step. The key idea is to predict the future behavior of the system over a specified time horizon and choose the best control inputs accordingly, while respecting system constraints.&lt;/p></description></item></channel></rss>
