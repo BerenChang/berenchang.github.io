@@ -7,7 +7,7 @@ menu:
   sidebar:
     name: Model Predictive Control 101
     identifier: mpc-101
-    parent: Control
+    parent: control
     weight: 10
 math: true
 ---

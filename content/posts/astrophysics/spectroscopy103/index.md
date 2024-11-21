@@ -7,7 +7,7 @@ menu:
   sidebar:
     name: Spectroscopy 103
     identifier: spectroscopy-103
-    parent: Astrophysics
+    parent: astrophysics
     weight: 10
 --- 	
 
