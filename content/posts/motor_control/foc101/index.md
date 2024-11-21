@@ -10,6 +10,7 @@ menu:
     parent: motor_control
     weight: 10
 math: true
+mermaid: true
 ---
 
 Field Oriented Control (FOC) is a widely used control technique for brushless motors due to its ability to deliver precise and efficient motor operation. It is especially popular in applications that require smooth torque delivery, energy efficiency, and precise speed control.
@@ -65,11 +66,15 @@ where $\theta$ can be measured by a sensor.
 FOC is essentially converting between the three-phase currents ($I_a, I_b, I_c$) and the rotor's two-phase currents ($I_d, I_q$). Mathematically, we have
 
 $$ 
-\begin{bmatrix} I_d \newline I_q \end{bmatrix} = \begin{bmatrix} \cos \theta \space \sin \theta \newline - sin \theta \space \cos \theta \end{bmatrix} \begin{bmatrix} I_\alpha \newline I_\beta \end{bmatrix} = \begin{bmatrix} \cos \theta \space \sin \theta \newline - sin \theta \space \cos \theta \end{bmatrix} \begin{bmatrix} \frac{3}{2} \space 0 \newline \space \frac{\sqrt{3}}{2} \space \sqrt{3} \end{bmatrix} \begin{bmatrix} I_\alpha \newline I_\beta \end{bmatrix}
+\begin{bmatrix} I_d \newline I_q \end{bmatrix} = \begin{bmatrix} \cos \theta \space \sin \theta \newline - \sin \theta \space \cos \theta \end{bmatrix} \begin{bmatrix} I_\alpha \newline I_\beta \end{bmatrix} = \begin{bmatrix} \cos \theta \space \sin \theta \newline - \sin \theta \space \cos \theta \end{bmatrix} \begin{bmatrix} \frac{3}{2} \space 0 \newline \space \frac{\sqrt{3}}{2} \space \sqrt{3} \end{bmatrix} \begin{bmatrix} I_a \newline I_b \end{bmatrix}
 $$
 
+Or, if ($I_a$, $I_b$) are placed on the left hand side,
 
-
+$$ 
+\begin{bmatrix} I_a \newline I_b \end{bmatrix}
+ = \begin{bmatrix} \frac{2}{3} \space 0 \newline \space -\frac{1}{3} \space \frac{\sqrt{3}}{3} \end{bmatrix} \begin{bmatrix} \cos \theta \space - \sin \theta \newline \sin \theta \space \cos \theta \end{bmatrix}  \begin{bmatrix} I_d \newline I_q \end{bmatrix}
+$$
 
 
 
