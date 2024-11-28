@@ -33,7 +33,7 @@ experiences:
 - company:
     name: DTV Motor Corporation
     url: "https://dtvmotorcorp.com"
-    location: Toronto, ON, Canada
+    location: Mississauga, ON, Canada
     logo: /images/sections/experiences/dtv.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
@@ -43,17 +43,19 @@ experiences:
     start: Sep 2024
     # end: Dec 2024
     responsibilities:
-    - Optimizing the steering performance.
-    - Developing the remote control system.
+    - Construct a simulation environment based on ROS2 and Gazebo.
+    - Optimize the smoothness of steering transition of the dual track system, reducing instability by 60%.
+    - Design and refined a joystick‑controlled remote system to enhance product demonstrations and usability.
   
   - designation: Control System Engineer Intern
     start: May 2021
     end: Dec 2021
     responsibilities:
-    - Redesigned the whole control system including software and firmware.
-    - Applied mathematical algorithms like PID and machine learning to solve steering problem for tracked vehicles.
-    - Utilized filtering method in signal processing to remove environmental noise.
-
+    - Redesigned the control system architecture using the CAN bus protocol, significantly improving communication re‑
+liability. Reduced total vehicle parts costs by 4%.
+    - Solved dual‑track steering control challenges using PID and MPC algorithms, improving maneuverability.
+    - Developed and tuned an EKF for real‑time environmental noise suppression, reducing noise interference by 35%.
+    
 - company:
     name: Neusoft Cloud
     url: "https://www.neusoft.com"
