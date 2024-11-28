@@ -51,8 +51,7 @@ experiences:
     start: May 2021
     end: Dec 2021
     responsibilities:
-    - Redesigned the control system architecture using the CAN bus protocol, significantly improving communication re‑
-liability. Reduced total vehicle parts costs by 4%.
+    - Redesigned the control system architecture using the CAN bus protocol, significantly improving communication reliability. Reduced total vehicle parts costs by 4%.
     - Solved dual‑track steering control challenges using PID and MPC algorithms, improving maneuverability.
     - Developed and tuned an EKF for real‑time environmental noise suppression, reducing noise interference by 35%.
     
