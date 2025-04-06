@@ -39,13 +39,16 @@ experiences:
     # darkLogo: /images/sections/experiences/company2.jpg
     overview: DTV Motor Corporation is a Canadian company that specializes in the development and manufacturing of Dual Tracked Vehicles (DTV), an all-terrain also known as "Shredder" vehicles. 
   positions:
-  - designation: Consultant
-    start: Sep 2024
+  - designation: Control System Engineer
+    start: Oct 2024
     # end: Dec 2024
     responsibilities:
-    - Construct a simulation environment based on ROS2 and Gazebo.
+    - Construct a simulation environment for tracked vehicle based on ROS2 and Gazebo.
+    - Enhanced the FOC motor control algorithm, achieving a 15% reduction in noise.
     - Optimize the smoothness of steering transition of the dual track system, reducing instability by 60%.
     - Design and refined a joystick‑controlled remote system to enhance product demonstrations and usability.
+    - Improved the control system by implementing a hybrid control strategy, enabling smooth and
+efficient performance during uphill/downhill travel and while executing precise circular maneuvers.
   
   - designation: Control System Engineer Intern
     start: May 2021
