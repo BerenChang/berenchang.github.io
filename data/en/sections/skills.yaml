@@ -86,3 +86,8 @@ skills:
   logo: /images/sections/skills/solidworks.png
   summary: "Skilled in SolidWorks, with extensive experience in 3D modeling, assemblies, and creating detailed engineering drawings."
   categories: ["others"]
+  
+- name: Unity
+  logo: /images/sections/skills/solidworks.png
+  summary: "Skilled in Unity application development. Developed a 2D matrix heatmap visualization program."
+  categories: ["others"]

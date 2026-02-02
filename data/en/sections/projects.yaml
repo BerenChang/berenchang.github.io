@@ -178,3 +178,31 @@ projects:
   url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: An Optimal control formulation of deep neural networks based on Li et al. (2018).
   tags: ["academic"]
+  
+- name: ELRS Remote Controller
+  role: Developer
+  timeline: "Oct 2025 - Jan 2026"
+  url: "https://github.com/BerenChang/AMATH456_final_project"
+  summary: Combine ELRS Receiver with motor controller to achieve kilometer level telecommunication.
+  tags: ["professional", "dtv"]
+  
+- name: Vision Based Object Tracking for Differential Drive Robot
+  role: Developer
+  timeline: "Jun 2025 - Oct 2026"
+  url: "https://github.com/BerenChang/AMATH456_final_project"
+  summary: Implement Yolo model and Kalman Filter on a Orin NX to allow a differential drive robot to track and follow a object in a certain distance smoothly.
+  tags: ["professional", "dtv"]
+
+- name: Indoor UWB Navigation System
+  role: Developer
+  timeline: "Feb 2025 - Jul 2025"
+  url: "https://github.com/BerenChang/AMATH456_final_project"
+  summary: Wrote a ROS2 package for passing real-time distance between the onboard UWB anchor and the UWB tag to the controller.  
+  tags: ["professional", "dtv"]
+
+- name: Harmonic Drive Based Equatorial Mount
+  role: Owner
+  timeline: "Jun 2025 - Jan 2026"
+  url: "https://github.com/BerenChang/AMATH456_final_project"
+  summary: Built a robust telescope equatorial mount using two harmonic drives, achieving 15kg+ loading capacity. A Onstep controller and SHC controller were built together to drive the mount.
+  tags: ["hobby"]
