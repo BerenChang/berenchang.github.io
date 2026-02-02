@@ -17,55 +17,72 @@ buttons:
   filter: "basic"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
+- name: Simulation
+  filter: "simulation"
 - name: Others
   filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  categories: ["basic"]
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   categories: ["basic"]
   url: "https://git-scm.com/"
+  
+- name: C
+  logo: /images/sections/skills/c.png
+  summary: "Skilled in C programming, with solid experience in developing efficient code for embedded systems and performance-critical applications, proven by the project of the DTV steering system."
+  categories: ["language"]
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  summary: "Proficient in C++ programming, with experience in object-oriented design, data structures, and algorithm optimization, proven by various quadrotor projects."
+  categories: ["language"]
+  
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Skilled in Python, with extensive experience in data analysis, scripting, and automation."
+  categories: ["language"]
+  
+- name: MATLAB
+  logo: /images/sections/skills/matlab.png
+  summary: "Expert in MATLAB for data visualization, algorithm optimization, and complex mathematical modeling."
+  categories: ["simulation", "language"]
+  
+- name: Qt
+  logo: /images/sections/skills/qt.png
+  summary: "Skillful in Qt for cross-platform application development."
+  categories: ["others"]
+  
+- name: ROS / ROS2
+  logo: /images/sections/skills/ros.png
+  summary: "Expert in Robot OS for robotics development, including simulation, multi-sensor integration, and autonomous navigation."
+  categories: ["others"]
+  
+- name: OptiTrack
+  logo: /images/sections/skills/motive.png
+  summary: "Skilled in operating the OptiTrack motion capture systems, including Motive setup, camera calibration, and data processing for accurate motion analysis."
+  categories: ["others"]
+  
+- name: Webots
+  logo: /images/sections/skills/webots.png
+  summary: "Expert in Webots for simulating and testing robotic systems to develop and refine robotic models and control algorithms for various applications, especially quadrotors."
+  categories: ["simulation"]
+  
+- name: Gazebo
+  logo: /images/sections/skills/gazebo.png
+  summary: "Proficient in Gazebo, with experience in creating realistic simulations for robotics applications including UGV like and robot arms like UR5."
+  categories: ["simulation"]
+ 
+- name: Solidworks
+  logo: /images/sections/skills/solidworks.png
+  summary: "Skilled in SolidWorks, with extensive experience in 3D modeling, assemblies, and creating detailed engineering drawings."
+  categories: ["others"]

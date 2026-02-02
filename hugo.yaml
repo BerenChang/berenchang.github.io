@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
 baseURL: https://berenchang.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Beren's Personal Web"
 
 # Use Hugo modules to add theme
 module:
@@ -24,13 +24,13 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Beren's Personal Web"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+#   bn:
+#     languageCode: bn
+#     languageName: বাংলা
+#     title: জনের ব্লগ
+#     weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -59,16 +59,16 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/carina_nebula.png
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/berenchang.JPG
+    inverted: /images/site/berenchang.JPG
+    favicon: /images/site/berenchang.JPG
 
   # GitHub repo of your site
   gitRepo: https://github.com/BerenChang/berenchang.github.io
