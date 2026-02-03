@@ -206,3 +206,10 @@ projects:
   url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Built a robust telescope equatorial mount using two harmonic drives, achieving 15kg+ loading capacity. A Onstep controller and SHC controller were built together to drive the mount.
   tags: ["hobby"]
+  
+- name: Vision-based SLAM via Stereo Camera
+  role: Developer
+  timeline: "Dec 2025 - Jan 2026"
+  url: "https://github.com/BerenChang/AMATH456_final_project"
+  summary: Deploy ORB-SLAM algorithm on Orin NX with stereo camera. 
+  tags: ["professional"]
