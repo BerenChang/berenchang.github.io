@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Robotics Planning and Control Specialist
+designation: Robotics Controls Engineer
 # your company information
 company:
   name: DTV Motor Corporation
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate robotics engineer. I built the steering system for DTV Shredder. Currently, I am leading a project on autonomous dual-track vehicle and a project on flexible pressure sensing system.'
+summary: 'I am a passionate robotics engineer. I built the steering system for DTV Shredder. Currently, I am leading a project on autonomous dual-track vehicle.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
