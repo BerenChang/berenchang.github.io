@@ -161,7 +161,7 @@ projects:
 
 - name: Geometric Control of a Quadrotor UAV on SE(3)
   # logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+  # image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Sep 2022 - Dec 2022"
   # repo: https://github.com/hossainemruz/toha
@@ -170,7 +170,7 @@ projects:
   
 - name: Optimal Control Formulation of Deep Neural Network
   # logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
+  # image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Jan 2022 - Mar 2022"
   url: "https://github.com/BerenChang/AMATH456_final_project"
