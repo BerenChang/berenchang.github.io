@@ -1,7 +1,7 @@
 ---
 title: "Model Predictive Control 102: The batch approach"
 date: 2024-11-02T06:00:23+06:00
-hero: hero.jpg
+hero: hero.png
 theme: Toha
 menu:
   sidebar:
