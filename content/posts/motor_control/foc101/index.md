@@ -1,5 +1,5 @@
 ---
-title: "Model Predictive Control 101: The concept"
+title: "Field Oriented Control 101: The concept"
 date: 2024-11-10T06:00:23+06:00
 hero: hero.jpg
 theme: Toha
