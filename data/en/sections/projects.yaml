@@ -24,14 +24,12 @@ buttons:
   
 - name: Robotics
   filter: "robotics"
+- name: Embedded
+  filter: "embedded"
 - name: ROS
   filter: "ros"
 - name: CV
   filter: "cv"
-- name: Quadrotor
-  filter: "quadrotor"
-- name: Astronomy
-  filter: "astronomy"
 
 # your projects
 # projects:
@@ -78,7 +76,7 @@ projects:
     controller and demonstration routines to validate maneuverability and control
     responsiveness. The system significantly improved low-speed stability and operator
     control precision.
-  tags: ["professional", "robotics", "highlight"]
+  tags: ["professional", "robotics", "embedded", "highlight"]
 
 - name: Vision-Based Object Tracking for Differential Drive Robot
   image: /images/sections/projects/person_recognition.png
@@ -102,66 +100,71 @@ projects:
     vehicle kinematics and sensor interfaces to enable testing of navigation,
     perception, and control modules in a repeatable virtual environment. The simulator
     accelerated development cycles and reduced on-hardware testing risk.
-
   tags: ["hobby", "ros2"]
-  
-- name: Pressure Measuring System for Golf Simulator
+
+- name: Golf Biomechanics Sensing Suite
   image: /images/sections/projects/pressure_mat.png
   role: Team Lead
-  timeline: "Oct 2024 - Jun 2025"
-  summary: This project involves a pressure mat that captures weight distribution to calculate center of weight movement, analyzing golf swing quality for training. It provides feedback on posture, balance, and movement to help golfers improve technique and performance. 
-  tags: ["hobby", "highlight"]
-  
-- name: Golf Putting Sensor
-  image: /images/sections/projects/golf_putter.png
-  role: Team Lead
-  timeline: "Sep 2025 - Present"
-  summary: This project involves a MPU6050, a RP2040 dev board and a LED matrix board. An algorithm was developed to detect the speed and acceleration of a golf club for putting exercise.
-  tags: ["hobby"]
-  
-- name: UR5 Robot Arm Pick & Place
-  role: Developer
-  timeline: "Aug 2024 - Oct 2024"
-  summary: Use ROS2 and Gazebo to simulate an UR5 robot arm to complete a pick & place task.
-  tags: ["hobby", "ros"]
+  timeline: "Oct 2024 - Present"
+  summary:
+    Led the development of a multi-sensor golf training system combining a large-area
+    pressure sensing mat and an IMU-based putting analyzer to evaluate swing mechanics
+    and balance. Designed a flexible 1m × 2m pressure mat to capture real-time weight
+    distribution and compute center-of-pressure trajectories for swing quality
+    assessment. Developed embedded algorithms on RP2040 with MPU6050 to estimate club
+    speed and acceleration during putting exercises, with LED matrix feedback for
+    intuitive training. The integrated system provides quantitative feedback on
+    posture, balance, and stroke consistency for golf performance improvement.
+  tags: ["hobby", "embedded", "highlight"]
 
-- name: Reach‑Avoid Control Synthesis for a Quadrotor UAV
+- name: Reach-Avoid & STL Quadrotor Control Framework
   image: /images/sections/projects/crazyflie.png
   role: Team Lead
-  timeline: "Sep 2023 - Apr 2024"
+  timeline: "Sep 2022 - Apr 2024"
   url: "https://www.youtube.com/watch?v=wMMqXJsCATg"
-  summary: A framework was designed to create a safe trajectory for UAVs to reach targets in complex environments, avoiding obstacles while meeting velocity and thrust constraints. It combined geometric controller for precise tracking with Bézier curve-based trajectory generation, incorporating tracking errors.
-  tags: ["academic", "quadrotor"]
+  summary:
+    Developed a formal methods–based motion planning and control framework for
+    quadrotor UAVs operating in constrained environments. Formulated reach-avoid tasks
+    using Signal Temporal Logic (STL) and solved trajectory generation via
+    mixed-integer convex programming (MICP) with Bézier curve parameterization to
+    ensure dynamic feasibility. Designed a Lyapunov-stable geometric controller on
+    SE(3) for high-precision trajectory tracking under thrust and velocity
+    constraints. Simulation studies demonstrated improved robustness and tracking
+    performance compared with PID and nonlinear MPC baselines.
+  tags: ["academic", "robotics", "highlight"]
 
-- name: Signal Temporal Logic Motion Planning for Quadrotor
-  role: Team Lead
-  timeline: "Mar 2023 - Aug 2023"
-  summary: A framework was constructed for robust quadrotor reach-avoid tasks using signal temporal logic (STL) and geometric control theory. Mixed-integer convex programming (MICP) is used to satisfy STL specifications, producing smooth trajectories with robustness tubes. A Lyapunov-based geometric controller ensures the quadrotor follows the trajectory within the robustness tube. Simulations confirm the framework's effectiveness, and comparisons show it outperforms PID and nonlinear model predictive control (NMPC).
-  tags: ["academic", "quadrotor"]
-
-- name: Geometric Control of a Quadrotor UAV on SE(3)
-  role: Owner
-  timeline: "Sep 2022 - Dec 2022"
-  summary: This projects introduces a tracking controller for a quadrotor using geometric control based on work by Lee et al. (2010). Leveraging SE(3) properties, this approach achieves a robust, coordinate-free control performance.
-  tags: ["academic", "quadrotor"]
-  
-- name: Optimal Control Formulation of Deep Neural Network
-  role: Owner
-  timeline: "Jan 2022 - Mar 2022"
-  summary: An Optimal control formulation of deep neural networks based on Li et al. (2018).
-  tags: ["academic"]
-
-- name: Harmonic Drive Based Equatorial Mount
+- name: Harmonic-Drive Equatorial Telescope Mount
   image: /images/sections/projects/harmonic_drive.png
-  role: Owner
+  role: System Designer
   timeline: "Jun 2025 - Jan 2026"
-  summary: Built a robust telescope equatorial mount using two harmonic drives, achieving 15kg+ loading capacity. A Onstep controller and SHC controller were built together to drive the mount.
-  tags: ["hobby", "highlight"]
-  
-- name: Onstep Motor Controller
-  image: /images/sections/projects/onstep.png
-  role: Owner
-  timeline: "Jun 2025 - Aug 2025"
-  summary: Modified and Soldered Onstep Motor Controller PCB for my harmonic equatorial mount. KiCAD and JLCPCB service are used.
-  tags: ["hobby"]
+  summary:
+    Designed and built a high-precision equatorial telescope mount using dual harmonic
+    drive reducers to achieve high torque density and sub-arcminute tracking
+    capability. Integrated stepper motors with planetary pre-reduction and implemented
+    an OnStep-based control system running on Teensy 4.0 with an ESP32 Smart Hand
+    Controller (SHC). Customized and soldered the motor controller PCB using KiCad and
+    JLCPCB to support the mount’s electrical and EMI requirements. The system supports
+    payloads exceeding 15 kg and enables stable long-exposure astrophotography.
+  tags: ["hobby", "embedded", "highlight"]
 
+- name: UR5 Pick-and-Place Simulation (ROS2 & Gazebo)
+  role: Developer
+  timeline: "Aug 2024 - Oct 2024"
+  summary:
+    Implemented a ROS2-based manipulation pipeline for a UR5 robot arm in Gazebo.
+    Developed motion planning and grasp execution for autonomous pick-and-place
+    operations within a simulated workspace. The project demonstrates familiarity with
+    ROS2 manipulation workflows and robotic arm kinematics in a physics-based
+    environment.
+  tags: ["hobby", "ros2"]
+
+- name: Optimal Control Formulation of Deep Neural Networks
+  role: Researcher
+  timeline: "Jan 2022 - Mar 2022"
+  summary:
+    Studied the optimal control interpretation of deep neural networks following the
+    framework of Li et al. (2018). Analyzed the correspondence between residual
+    networks and discretized dynamical systems, and explored training dynamics through
+    the lens of continuous-time optimal control. The work strengthened theoretical
+    understanding of learning-based control and deep model stability.
+  tags: ["academic"]
