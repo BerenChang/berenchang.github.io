@@ -22,10 +22,12 @@ buttons:
 - name: Hobby
   filter: "hobby"
   
-- name: DTV
-  filter: "dtv"
+- name: Robotics
+  filter: "robotics"
 - name: ROS
   filter: "ros"
+- name: CV
+  filter: "cv"
 - name: Quadrotor
   filter: "quadrotor"
 - name: Astronomy
@@ -48,46 +50,60 @@ buttons:
 #   tags: ["professional", "dtv"]
 
 projects:
-- name: DTV Sensor Fusion System
+- name: DTV Autonomous Platform & Sensor Fusion Stack
   image: /images/sections/projects/dtv.png
-  timeline: "Apr 2025 - Jan 2026"
-  summary:  Implemented ultrasonic sensing for real‑time obstacle detection to ensure operational safety.
-   Integrated VSLAM to provide real‑time pose estimation and drift‑reduced odometry updates to the EKF.
-   Used UWB anchors as global position constraints to improve localization robustness in indoor environments.
-   Applied YOLOv11 with DeepStream for real‑time person detection enabling person‑following mode.
-   Deployed and optimized the full pipeline on NVIDIA Jetson for real‑time embedded operation and data logging.
-  tags: ["professional", "dtv", "highlight"]
+  role: Robotics & Control Engineer
+  timeline: "Nov 2024 - Jan 2026"
+  summary:
+    Developed an end-to-end autonomy stack for the DTV Shredder, integrating perception,
+    localization, human interaction, and safety systems on an NVIDIA Jetson platform.
+    Implemented multi-sensor fusion using ultrasonic sensing, stereo VSLAM, and UWB
+    anchors to provide drift-reduced state estimation through an Extended Kalman Filter.
+    Deployed real-time vision pipelines using YOLO and DeepStream for person detection,
+    tracking, and autonomous following behaviors. Built a natural-language command
+    interface using a quantized language model to translate user instructions into
+    executable robot actions. Optimized the full pipeline for embedded real-time
+    performance with system-level validation and data logging.
+  tags: ["professional", "robotics", "highlight"]
 
-- name: Autonomous Safety & Obstacle Avoidance System
-  role: Developer
-  timeline: "Apr 2025 - May 2025"
-  summary: Integrated ultrasonic sensors to provide collision avoidance. The system monitors surroundings and automatically stops the vehicle when obstacles are detected nearby.
-  tags: ["professional", "dtv", "highlight"]
-  
-- name: Vision-Based Person Recognition 
+- name: Tracked Vehicle Steering & Control System
+  role: Control Algorithm Developer
+  timeline: "May 2021 - Jan 2025"
+  summary:
+    Designed and implemented the differential steering control system for the DTV
+    Shredder tracked vehicle. Developed and tuned PID and Model Predictive Control
+    (MPC) algorithms to address nonlinear steering behavior and terrain-dependent
+    disturbances. Applied Extended Kalman Filtering to improve state estimation
+    robustness under sensor noise and slip conditions. Built a joystick-based remote
+    controller and demonstration routines to validate maneuverability and control
+    responsiveness. The system significantly improved low-speed stability and operator
+    control precision.
+  tags: ["professional", "robotics", "highlight"]
+
+- name: Vision-Based Object Tracking for Differential Drive Robot
   image: /images/sections/projects/person_recognition.png
-  role: Developer
-  timeline: "Jul 2025 - Aug 2025"
-  summary: Deployed a YOLO model on the Jetson Orin NX to recognize and track people in real time. Enabled the vehicle to identify and react to human presence.
-  tags: ["professional", "dtv"]
-  
-- name: DTV Shredder Tracking & Following System
-  role: Developer
-  timeline: "Aug 2025 - Present"
-  summary: mplemented a UWB positioning system to locate and follow a designated person. Combined with control logic, the vehicle can autonomously trail a target.
-  tags: ["professional", "dtv"]
-  
-- name: Natural Language Command Interface
-  role: Developer
-  timeline: "Aug 2025 - Present"
-  summary: Ran a quantized language model on the Jetson Orin NX to parse spoken or written user commands. Enabled intuitive communication between user and robot by translating words into actionable tasks.
-  tags: ["professional", "dtv"]
+  role: Robotics Developer
+  timeline: "Jun 2025 - Present"
+  summary:
+    Developed a real-time vision tracking system for a differential drive robot using
+    a YOLO-based detector running on NVIDIA Jetson Orin NX. Integrated Kalman filtering
+    and motion control to maintain smooth target following at a fixed distance.
+    Implemented closed-loop velocity control to reduce oscillation and improve tracking
+    stability under dynamic target motion. The system demonstrates robust real-time
+    perception-to-control integration for mobile robotics applications.
+  tags: ["professional", "robotics", "cv", "highlight"]
 
-- name: DTV Shredder Remote Controller
+- name: DTV Simulation Environment (ROS2 & Gazebo)
   role: Developer
-  timeline: "Nov 2024 - Present"
-  summary: A joystick-based remote controller is designed for the DTV Shredder to enable precise control. Additionally, a showcase routine was created to demonstrate the shredder's maneuverability.
-  tags: ["professional", "dtv"]
+  timeline: "Aug 2024 - Oct 2024"
+  summary:
+    Built a high-fidelity simulation environment for the DTV Shredder using ROS2 and
+    Gazebo to support rapid prototyping and algorithm validation. Modeled tracked
+    vehicle kinematics and sensor interfaces to enable testing of navigation,
+    perception, and control modules in a repeatable virtual environment. The simulator
+    accelerated development cycles and reduced on-hardware testing risk.
+
+  tags: ["hobby", "ros2"]
   
 - name: Pressure Measuring System for Golf Simulator
   image: /images/sections/projects/pressure_mat.png
@@ -108,18 +124,6 @@ projects:
   timeline: "Aug 2024 - Oct 2024"
   summary: Use ROS2 and Gazebo to simulate an UR5 robot arm to complete a pick & place task.
   tags: ["hobby", "ros"]
-  
-- name: DTV Simulator
-  role: Developer
-  timeline: "Aug 2024 - Oct 2024"
-  summary: A DTV Shredder simulator was designed using ROS2 and Gazebo. 
-  tags: ["hobby", "dtv", "ros"]
-  
-- name: DTV Shredder Steering System
-  role: Developer
-  timeline: "May 2021 - Aug 2021"
-  summary: This project involved designing the steering control system for the DTV Shredder. Advanced mathematical algorithms, such as PID and Model Predictive Control (MPC), were implemented to address steering challenges specific to tracked vehicles. An Extended Kalman Filter (EKF) was also applied in signal processing to effectively filter out environmental noise, enhancing control precision and system reliability.
-  tags: ["professional", "dtv", "highlight"]
 
 - name: Reach‑Avoid Control Synthesis for a Quadrotor UAV
   role: Team Lead
@@ -145,24 +149,6 @@ projects:
   timeline: "Jan 2022 - Mar 2022"
   summary: An Optimal control formulation of deep neural networks based on Li et al. (2018).
   tags: ["academic"]
-  
-- name: ELRS Remote Controller
-  role: Developer
-  timeline: "Oct 2025 - Jan 2026"
-  summary: Combine ELRS Receiver with motor controller to achieve kilometer level telecommunication.
-  tags: ["professional", "dtv"]
-  
-- name: Vision Based Object Tracking for Differential Drive Robot
-  role: Developer
-  timeline: "Jun 2025 - Oct 2026"
-  summary: Implement Yolo model and Kalman Filter on a Orin NX to allow a differential drive robot to track and follow a object in a certain distance smoothly.
-  tags: ["professional", "dtv"]
-
-- name: Indoor UWB Navigation System
-  role: Developer
-  timeline: "Feb 2025 - Jul 2025"
-  summary: Wrote a ROS2 package for passing real-time distance between the onboard UWB anchor and the UWB tag to the controller.  
-  tags: ["professional", "dtv"]
 
 - name: Harmonic Drive Based Equatorial Mount
   image: /images/sections/projects/harmonic_drive.png
@@ -177,16 +163,4 @@ projects:
   timeline: "Jun 2025 - Aug 2025"
   summary: Modified and Soldered Onstep Motor Controller PCB for my harmonic equatorial mount. KiCAD and JLCPCB service are used.
   tags: ["hobby"]
-  
-- name: ESC Display System
-  image: /images/sections/projects/dtv_display.png
-  role: Owner
-  timeline: "Jan 2025 - Feb 2025"
-  summary: Designed and built a display system for displaying ESC infomation like current, temperature, power, etc. 
-  tags: ["professional", "dtv"]
-  
-- name: Vision-based SLAM via Stereo Camera
-  role: Developer
-  timeline: "Dec 2025 - Jan 2026"
-  summary: Deploy ORB-SLAM algorithm on Orin NX with stereo camera. 
-  tags: ["professional"]
+
