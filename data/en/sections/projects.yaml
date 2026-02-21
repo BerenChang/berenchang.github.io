@@ -48,50 +48,44 @@ buttons:
 #   tags: ["professional", "dtv"]
 
 projects:
-- name: Autonomous Safety & Obstacle Avoidance System
+- name: DTV Sensor Fusion System
   image: /images/sections/projects/dtv.png
-  # logo: /images/sections/projects/tensorflow.png
+  timeline: "Apr 2025 - Jan 2026"
+  summary:  Implemented ultrasonic sensing for real‑time obstacle detection to ensure operational safety.
+   Integrated VSLAM to provide real‑time pose estimation and drift‑reduced odometry updates to the EKF.
+   Used UWB anchors as global position constraints to improve localization robustness in indoor environments.
+   Applied YOLOv11 with DeepStream for real‑time person detection enabling person‑following mode.
+   Deployed and optimized the full pipeline on NVIDIA Jetson for real‑time embedded operation and data logging.
+  tags: ["professional", "dtv", "highlight"]
+
+- name: Autonomous Safety & Obstacle Avoidance System
   role: Developer
   timeline: "Apr 2025 - May 2025"
-  # repo: https://github.com/tensorflow/tensorflow
-  #url: ""
   summary: Integrated ultrasonic sensors to provide collision avoidance. The system monitors surroundings and automatically stops the vehicle when obstacles are detected nearby.
   tags: ["professional", "dtv", "highlight"]
   
 - name: Vision-Based Person Recognition 
   image: /images/sections/projects/person_recognition.png
-  # logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "Jul 2025 - Aug 2025"
-  # repo: https://github.com/tensorflow/tensorflow
-  #url: ""
   summary: Deployed a YOLO model on the Jetson Orin NX to recognize and track people in real time. Enabled the vehicle to identify and react to human presence.
   tags: ["professional", "dtv"]
   
 - name: DTV Shredder Tracking & Following System
-  # logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "Aug 2025 - Present"
-  # repo: https://github.com/tensorflow/tensorflow
-  #url: ""
   summary: mplemented a UWB positioning system to locate and follow a designated person. Combined with control logic, the vehicle can autonomously trail a target.
   tags: ["professional", "dtv"]
   
 - name: Natural Language Command Interface
-  # logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "Aug 2025 - Present"
-  # repo: https://github.com/tensorflow/tensorflow
-  #url: ""
   summary: Ran a quantized language model on the Jetson Orin NX to parse spoken or written user commands. Enabled intuitive communication between user and robot by translating words into actionable tasks.
   tags: ["professional", "dtv"]
 
 - name: DTV Shredder Remote Controller
-  # logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "Nov 2024 - Present"
-  # repo: https://github.com/tensorflow/tensorflow
-  #url: ""
   summary: A joystick-based remote controller is designed for the DTV Shredder to enable precise control. Additionally, a showcase routine was created to demonstrate the shredder's maneuverability.
   tags: ["professional", "dtv"]
   
@@ -99,7 +93,6 @@ projects:
   image: /images/sections/projects/pressure_mat.png
   role: Team Lead
   timeline: "Oct 2024 - Jun 2025"
-  # url: "https://www.example.com"
   summary: This project involves a pressure mat that captures weight distribution to calculate center of weight movement, analyzing golf swing quality for training. It provides feedback on posture, balance, and movement to help golfers improve technique and performance. 
   tags: ["hobby", "highlight"]
   
@@ -107,34 +100,24 @@ projects:
   image: /images/sections/projects/golf_putter.png
   role: Team Lead
   timeline: "Sep 2025 - Present"
-  # url: "https://www.example.com"
   summary: This project involves a MPU6050, a RP2040 dev board and a LED matrix board. An algorithm was developed to detect the speed and acceleration of a golf club for putting exercise.
   tags: ["hobby"]
   
 - name: UR5 Robot Arm Pick & Place
-  # logo: /images/sections/projects/kubernetes.png
   role: Developer
   timeline: "Aug 2024 - Oct 2024"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Use ROS2 and Gazebo to simulate an UR5 robot arm to complete a pick & place task.
   tags: ["hobby", "ros"]
   
 - name: DTV Simulator
-  # logo: /images/sections/projects/kubernetes.png
   role: Developer
   timeline: "Aug 2024 - Oct 2024"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: A DTV Shredder simulator was designed using ROS2 and Gazebo. 
   tags: ["hobby", "dtv", "ros"]
   
 - name: DTV Shredder Steering System
-  # logo: /images/sections/projects/kubernetes.png
   role: Developer
   timeline: "May 2021 - Aug 2021"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: This project involved designing the steering control system for the DTV Shredder. Advanced mathematical algorithms, such as PID and Model Predictive Control (MPC), were implemented to address steering challenges specific to tracked vehicles. An Extended Kalman Filter (EKF) was also applied in signal processing to effectively filter out environmental noise, enhancing control precision and system reliability.
   tags: ["professional", "dtv", "highlight"]
 
@@ -146,50 +129,38 @@ projects:
   tags: ["academic", "quadrotor"]
 
 - name: Signal Temporal Logic Motion Planning for Quadrotor
-  # logo: /images/sections/projects/no-code.png
   role: Team Lead
   timeline: "Mar 2023 - Aug 2023"
-  # repo: https://github.com/kelseyhightower/nocode
-  #url: ""
   summary: A framework was constructed for robust quadrotor reach-avoid tasks using signal temporal logic (STL) and geometric control theory. Mixed-integer convex programming (MICP) is used to satisfy STL specifications, producing smooth trajectories with robustness tubes. A Lyapunov-based geometric controller ensures the quadrotor follows the trajectory within the robustness tube. Simulations confirm the framework's effectiveness, and comparisons show it outperforms PID and nonlinear model predictive control (NMPC).
   tags: ["academic", "quadrotor"]
 
 - name: Geometric Control of a Quadrotor UAV on SE(3)
-  # logo: /images/sections/projects/toha.png
-  # image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Sep 2022 - Dec 2022"
-  # repo: https://github.com/hossainemruz/toha
   summary: This projects introduces a tracking controller for a quadrotor using geometric control based on work by Lee et al. (2010). Leveraging SE(3) properties, this approach achieves a robust, coordinate-free control performance.
   tags: ["academic", "quadrotor"]
   
 - name: Optimal Control Formulation of Deep Neural Network
-  # logo: /images/sections/projects/toha.png
-  # image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Jan 2022 - Mar 2022"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: An Optimal control formulation of deep neural networks based on Li et al. (2018).
   tags: ["academic"]
   
 - name: ELRS Remote Controller
   role: Developer
   timeline: "Oct 2025 - Jan 2026"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Combine ELRS Receiver with motor controller to achieve kilometer level telecommunication.
   tags: ["professional", "dtv"]
   
 - name: Vision Based Object Tracking for Differential Drive Robot
   role: Developer
   timeline: "Jun 2025 - Oct 2026"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Implement Yolo model and Kalman Filter on a Orin NX to allow a differential drive robot to track and follow a object in a certain distance smoothly.
   tags: ["professional", "dtv"]
 
 - name: Indoor UWB Navigation System
   role: Developer
   timeline: "Feb 2025 - Jul 2025"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Wrote a ROS2 package for passing real-time distance between the onboard UWB anchor and the UWB tag to the controller.  
   tags: ["professional", "dtv"]
 
@@ -197,7 +168,6 @@ projects:
   image: /images/sections/projects/harmonic_drive.png
   role: Owner
   timeline: "Jun 2025 - Jan 2026"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Built a robust telescope equatorial mount using two harmonic drives, achieving 15kg+ loading capacity. A Onstep controller and SHC controller were built together to drive the mount.
   tags: ["hobby", "highlight"]
   
@@ -205,7 +175,6 @@ projects:
   image: /images/sections/projects/onstep.png
   role: Owner
   timeline: "Jun 2025 - Aug 2025"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Modified and Soldered Onstep Motor Controller PCB for my harmonic equatorial mount. KiCAD and JLCPCB service are used.
   tags: ["hobby"]
   
@@ -213,13 +182,11 @@ projects:
   image: /images/sections/projects/dtv_display.png
   role: Owner
   timeline: "Jan 2025 - Feb 2025"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Designed and built a display system for displaying ESC infomation like current, temperature, power, etc. 
   tags: ["professional", "dtv"]
   
 - name: Vision-based SLAM via Stereo Camera
   role: Developer
   timeline: "Dec 2025 - Jan 2026"
-  # url: "https://github.com/BerenChang/AMATH456_final_project"
   summary: Deploy ORB-SLAM algorithm on Orin NX with stereo camera. 
   tags: ["professional"]
