@@ -126,6 +126,7 @@ projects:
   tags: ["hobby", "ros"]
 
 - name: Reach‑Avoid Control Synthesis for a Quadrotor UAV
+  image: /images/sections/projects/crazyflie.png
   role: Team Lead
   timeline: "Sep 2023 - Apr 2024"
   url: "https://www.youtube.com/watch?v=wMMqXJsCATg"
