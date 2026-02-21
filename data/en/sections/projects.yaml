@@ -65,6 +65,7 @@ projects:
   tags: ["professional", "robotics", "highlight"]
 
 - name: Tracked Vehicle Steering & Control System
+  image: /images/sections/projects/powertrain.png
   role: Control Algorithm Developer
   timeline: "May 2021 - Jan 2025"
   summary:
@@ -148,6 +149,7 @@ projects:
   tags: ["hobby", "embedded", "highlight"]
 
 - name: UR5 Pick-and-Place Simulation (ROS2 & Gazebo)
+  image: /images/sections/projects/ur5.png
   role: Developer
   timeline: "Aug 2024 - Oct 2024"
   summary:
