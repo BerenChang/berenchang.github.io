@@ -13,6 +13,9 @@ description: Portfolio and personal blog of Beren Chang.
 # they will be separated by a divider from the main menus.
 customMenus:
 
+- name: Gallery
+  url: /notes
+
 - name: About My Name
   url: https://en.wikipedia.org/wiki/Beren_and_L%C3%BAthien
   
