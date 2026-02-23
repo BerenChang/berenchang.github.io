@@ -14,3 +14,17 @@ menu:
 {{< figure src="moon1.jpeg" title="Moon" width="400px">}}
 
 {{< /note >}}
+
+
+{{< note title="Moon">}}
+
+{{< figure src="moon2.JPG" title="Moon" width="400px">}}
+
+{{< /note >}}
+
+
+{{< note title="Moon">}}
+
+{{< figure src="moon3.JPG" title="Moon" width="400px">}}
+
+{{< /note >}}

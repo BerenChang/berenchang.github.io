@@ -16,10 +16,3 @@ menu:
 {{< /note >}}
 
 
-
-
-{{< note title="M13" >}}
-
-{{< figure src="Stacked_5_M 13_10.0s_IRCUT_20240712-232728.JPG" title="M13" width="300px">}}
-
-{{< /note >}}

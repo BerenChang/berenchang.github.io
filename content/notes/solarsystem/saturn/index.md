@@ -14,3 +14,10 @@ menu:
 {{< figure src="saturn1.jpeg" title="Saturn">}}
 
 {{< /note >}}
+
+
+{{< note title="Saturn" >}}
+
+{{< figure src="saturn2.jpeg" title="Saturn">}}
+
+{{< /note >}}

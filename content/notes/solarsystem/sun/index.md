@@ -44,3 +44,10 @@ menu:
 {{< figure src="eclipse5.PNG" title="Full Eclipse 2024" width="400px">}}
 
 {{< /note >}}
+
+
+{{< note title="Sun" >}}
+
+{{< figure src="sunspot.JPG" title="Sunspot" width="400px">}}
+
+{{< /note >}}

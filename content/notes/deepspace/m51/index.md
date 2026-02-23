@@ -15,9 +15,3 @@ menu:
 
 {{< /note >}}
 
-
-{{< note title="M51" >}}
-
-{{< figure src="Stacked_32_M 51_10.0s_LP_20240713-004708.JPG" title="M51" width="300px">}}
-
-{{< /note >}}
