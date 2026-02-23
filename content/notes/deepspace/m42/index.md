@@ -14,3 +14,10 @@ menu:
 {{< figure src="m42_1.jpeg" title="M42" width="300px">}}
 
 {{< /note >}}
+
+
+{{< note title="M42" >}}
+
+{{< figure src="m42_2.JPG" title="M42" width="300px">}}
+
+{{< /note >}}
